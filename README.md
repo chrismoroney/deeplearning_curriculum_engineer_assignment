@@ -26,21 +26,24 @@ You can verify if Docker is installed to your machine by running the following c
 docker --version
 ```
 
-### 1. **Clone this repository**
+### 1. **Clone this repository and cd into directory**
 ```bash
-git clone https://github.com/your-username/relu-activation-exercise.git
-cd relu-activation-exercise
+git clone https://github.com/chrismoroney/deeplearning_curriculum_engineer_assignment.git
+cd deeplearning_curriculum_engineer_assignment
 ```
 
 ### 2. **Build the Docker image**
 ```bash
 docker build -t relu-notebook .
 ```
+This will take anywhere between 2-5 minutes initially. Once the image has been created, you will be ready to move to step 3.
+
 
 ### 3. Run the container
 ```bash
 docker run -p 8888:8888 relu-notebook
 ```
+Keep this terminal open, then proceed to step 4.
 
 ### 4. Open Jupyter Lab in your browser
 ```bash
