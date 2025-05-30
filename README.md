@@ -21,6 +21,11 @@ The notebook walks learners through:
 Prerequisite: Docker must be installed on your system.
 You can download it here: [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
+You can verify if Docker is installed to your machine by running the following command
+```bash
+docker --version
+```
+
 ### 1. **Clone this repository**
 ```bash
 git clone https://github.com/your-username/relu-activation-exercise.git
@@ -42,7 +47,7 @@ docker run -p 8888:8888 relu-notebook
 http://localhost:8888
 ```
 
-You’ll see the Jupyter environment with relu.ipynb available to run.
+You’ll see the Jupyter environment with **relu.ipynb** available to run.
 
 Requirements (handled in Docker)
 - Python 3.10
