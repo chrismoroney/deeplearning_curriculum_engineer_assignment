@@ -18,7 +18,8 @@ The notebook walks learners through:
 
 ## Running with Docker
 
-To run this project locally using Docker:
+Prerequisite: Docker must be installed on your system.
+You can download it here: [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 ### 1. **Clone this repository**
 ```bash
