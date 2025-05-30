@@ -6,7 +6,7 @@ COPY . /workspace
 
 RUN pip install --no-cache-dir --upgrade pip \
  && pip install --no-cache-dir \
-    jupyter \
+    jupyterlab \
     numpy \
     matplotlib \
     tensorflow \
@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir --upgrade pip \
 
 EXPOSE 8888
 
-CMD ["jupyter", "notebook", "relu.ipynb", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]
